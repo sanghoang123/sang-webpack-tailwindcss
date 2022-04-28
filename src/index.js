@@ -6,7 +6,7 @@ function component() {
   <div class="container mx-auto px-7 md:px-0">
       <nav class=" flex justify-between items-center py-5 ">
           <div class="header__logo w-28 md:w-full z-20">
-              <img src="../src/img/home-logo.png" alt="home-logo">
+              <img src="./img/home-logo.png" alt="home-logo">
           </div>
           <ul id="menu"
               class="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-gray-900 bg-opacity-90 z-20 invisible md:bg-transparent md:h-auto md:flex-row md:justify-between md:static  md:visible">
@@ -39,7 +39,7 @@ function component() {
 </header>
 <section class="carousel">
   <div class="w-full bg-no-repeat bg-cover relative h-custom"
-      style="background-image: url('../src/img/carousel.jpg')">
+      style="background-image: url('./img/carousel.jpg')">
       <div class="
   absolute
   top-1/2
@@ -102,7 +102,7 @@ left-1/2
 transform
 -translate-x-2/3 -translate-y-1/4
 ">
-      <img src="../src/img/app-img.png" alt="phone app screens" class="max-w-none w-screen pl-20 md:w-auto" />
+      <img src="./img/app-img.png" alt="phone app screens" class="max-w-none w-screen pl-20 md:w-auto" />
   </div>
 </section>
 <section class="pt-96 mt-28 sm:pt-40-c md:mt-0">
@@ -113,7 +113,7 @@ transform
       </h2>
       <div class="flex flex-col justify-evenly items-center py-10 md:flex-row">
           <div class="text-center mb-10">
-              <img src="../src/img/app-create-login.png" alt="app screen" />
+              <img src="./img/app-create-login.png" alt="app screen" />
           </div>
           <div class="text-center md:text-left">
               <span class="text-red-500 font-semibold">Create an account</span>
@@ -133,7 +133,7 @@ transform
       </div>
       <div class="flex flex-col justify-evenly items-center py-10 md:flex-row">
           <div class="text-center mb-10 order-1 md:order-2">
-              <img src="../src/img/your-favorites-app.png" alt="app screen" />
+              <img src="./img/your-favorites-app.png" alt="app screen" />
           </div>
           <div class="text-center md:text-left order-2 md:order-1">
               <span class="text-red-500 font-semibold">Create an account</span>
@@ -153,7 +153,7 @@ transform
       </div>
       <div class="flex flex-col justify-evenly items-center py-10 md:flex-row">
           <div class="text-center mb-10">
-              <img src="../src/img/check-out-app.png" alt="app screen" />
+              <img src="./img/check-out-app.png" alt="app screen" />
           </div>
           <div class="text-center md:text-left">
               <span class="text-red-500 font-semibold">Create an account</span>
@@ -176,7 +176,7 @@ transform
 <!-- download -->
 <section>
   <div class="relative w-full h-custom bg-no-repeat bg-cover"
-      style="background-image: url('../src/img/banner.jpg')">
+      style="background-image: url('./img/banner.jpg')">
       <div class="
         absolute
         top-1/2
@@ -231,7 +231,7 @@ transform
   <div class="container mx-auto px-4">
       <div class="flex flex-col justify-between items-center py-5 md:flex-row">
           <div class="w-32 md:w-full">
-              <img src="../src/img/home-logo.png" alt="website logo" />
+              <img src="./img/home-logo.png" alt="website logo" />
           </div>
           <div class="
     flex
